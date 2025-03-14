@@ -1,9 +1,78 @@
-h1 {
-    font-size: 200px;
-    color: aqua;
+@import 'libs/bootstrap-reboot';
+@import 'base/variables';
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    position: relative;
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container.container_width-1440 {
+    position: relative;
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container.container_width-1920 {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.container.container_width-800 {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.container.container_width-800.container_hide {
+    display: none;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+        color: $black;
+        text-decoration: none;
+    }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-style: italic;
 }
 
 p {
-    font-size: 50px;
-    color: blue;
+    margin-bottom: 0px;
+}
+
+
+
+
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/main';
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
 }
