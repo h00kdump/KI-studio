@@ -1,4 +1,25 @@
-.h1-hello {
-    font-size: 200px;
-    color: aqua;
+
+.main {
+    &__h1-hello {
+        margin-top: 100px;
+        font-size: 200px;
+        color: blue;
+        line-height: 80%;
+        margin-bottom: 100px;
+    }
+
+    &__paragraph {
+        font-size: 80px;
+        color: white;
+        line-height: 80%;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        font-size: 32px;
+        color: white;
+        line-height: 120%;
+        margin-bottom: 32px;
+    }
+
 }
