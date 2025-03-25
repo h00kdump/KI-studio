@@ -1,9 +1,43 @@
 .footer {
-    background-color: $white;
-    &__copyrights {
-        height: 80px;
-        display: flex;
-        justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-block;
+    font-family: 'Inter Bold';
+    font-weight: 600;
+    line-height: 100%;
+    font-style: bold;
+    font-size: 20px;
+    color: $white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 32px;
+
+    &__mail {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        display: inline-block;
+    }
+
+    &__btn {
+        display: inline-flex;
+        padding: 8px 24px 8px 8px;
+        justify-content: center;
         align-items: center;
+        gap: 18px;
+
+        border-radius: 100px;
+        background: $blue;
+        display: inline-block;
+    }
+
+    &__language {
+        text-transform: lowercase;
+        display: inline-block;
     }
 }
