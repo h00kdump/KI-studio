@@ -1,8 +1,10 @@
 .footer {
     position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
 
     display: inline-block;
     font-family: 'Inter Bold';
@@ -22,6 +24,7 @@
         height: 24px;
         flex-shrink: 0;
         display: inline-block;
+        background: url(../icons/Icons-Mail-Dark.svg);
     }
 
     &__btn {
@@ -33,7 +36,14 @@
 
         border-radius: 100px;
         background: $blue;
-        display: inline-block;
+
+        &__icon {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Social_icons-Telegram-Dark.svg);
+        }
     }
 
     &__language {
