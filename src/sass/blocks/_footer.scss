@@ -1,6 +1,5 @@
 .footer {
     position: fixed;
-    position: fixed;
     left: 0%;
     top: auto;
     right: 0%;
@@ -24,7 +23,12 @@
         height: 24px;
         flex-shrink: 0;
         display: inline-block;
+        cursor: pointer;
         background: url(../icons/Icons-Mail-Dark.svg);
+        &:hover {
+            background: url(../icons/Icons-Mail-Blue.svg);
+            cursor: pointer;
+            }
     }
 
     &__btn {
@@ -36,6 +40,11 @@
 
         border-radius: 100px;
         background: $blue;
+
+        &:hover {
+            background: $green;
+            cursor: pointer;
+            }
 
         &__icon {
             width: 48px;
