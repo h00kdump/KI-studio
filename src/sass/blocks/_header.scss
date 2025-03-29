@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: 100;
     display: inline-block;
     font-family: 'Inter Bold';
     font-weight: 600;
@@ -19,15 +21,25 @@
 
     &__menu {
         text-transform: lowercase;
+        cursor: pointer;
+        &:hover {
+            color: $blue;
+            cursor: pointer;
+            }
     }
     
     &__myphoto {
+        cursor: pointer;
         width: 48px;
         height: 48px;
         flex-shrink: 0;
         border-radius: 100px;
-        border: 3px solid #3D78E5;
+        border: 3px solid $blue;
         background: url(../img/myphoto.png) lightgray 50% / cover no-repeat;
+        &:hover {
+            border: 3px solid $green;
+            cursor: pointer;
+            }
     }
 
 }
