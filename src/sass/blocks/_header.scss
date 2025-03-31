@@ -1,6 +1,13 @@
 .header {
-    position: relative;
+    position: fixed;
     z-index: 100;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+
+    height: 40px;
+
     display: inline-block;
     font-family: 'Inter Bold';
     font-weight: 600;
@@ -17,6 +24,11 @@
     &__logo {
         font-size: 36px;
         text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            color: $blue;
+            cursor: pointer;
+            }
     }
 
     &__menu {
