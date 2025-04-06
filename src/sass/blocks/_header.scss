@@ -21,10 +21,14 @@
     align-items: center;
     margin: 25px 32px;
 
+
     &__logo {
         font-size: 36px;
         text-transform: uppercase;
         cursor: pointer;
+        &-selected {
+            color: $blue;
+        }
         &:hover {
             color: $blue;
             cursor: pointer;
@@ -34,6 +38,9 @@
     &__menu {
         text-transform: lowercase;
         cursor: pointer;
+        &-selected {
+            color: $blue;
+        }
         &:hover {
             color: $blue;
             cursor: pointer;
@@ -46,10 +53,13 @@
         height: 48px;
         flex-shrink: 0;
         border-radius: 100px;
-        border: 3px solid $blue;
+        border: 3px solid $white;
         background: url(../img/myphoto.png) lightgray 50% / cover no-repeat;
+        &-selected {
+            border: 3px solid $blue;
+        }
         &:hover {
-            border: 3px solid $green;
+            border: 3px solid $blue;
             cursor: pointer;
             }
     }
