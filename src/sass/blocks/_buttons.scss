@@ -1,169 +1,35 @@
+.close {
+    position: fixed;
+    z-index: 1000;
+    left: 0%;
+    top: 2%;
+    right: 0%;
+    bottom: auto;
 
-.main-playbutton {
-    cursor: pointer;
-    &__bg {
-        width: 156px;
-        height: 156px;
-        border-radius: 100%;
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(9px);
-        &_align-center {
-            margin: 0px auto;
-        }
-    }
-    &__icon {
-        width: 108px;
-        height: 108px;
-        background-color: $white;
-        border-radius: 100%;
+    display: flex;
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    &__btn {
         display: flex;
+        width: 64px;
+        height: 64px;
         justify-content: center;
         align-items: center;
-        &_align-center {
-            margin: 0px auto;
-        }
-        &_pa-1 {
-            position: absolute;
-            left: 0px;
-            right: 0px;
-            top: 24px;
-            z-index: 1;
-        }
-        img {
-            margin-left: 10px;
-        }
-    }
-    &__img {
-        width: 40px;
-        height: 40px;
-        background-image: url(../img/lp-icons-play.svg);
-        background-position: 50% 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        translate: 5px;
-        &_pause {
-            width: 40px;
-            height: 40px;
-            background-image: url(../img/lp-icons-pause.svg);
-            background-position: 50% 50%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            translate: 0px;
+        gap: 10px;
+        flex-shrink: 0;
+
+        border-radius: 100px;
+        background: $red;
+
+        box-shadow: 0px 0px 40px 0px rgba(47, 48, 51, 0.32);
+
+        &__img {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
         }
     }
 }
-
-.playbutton {
-    position: relative;
-    cursor: pointer;
-    &_mt-m54 {
-        margin-top: -54px;
-    }
-    &__icon {
-        width: 86px;
-        height: 86px;
-        background-color: $white;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.06);
-        &_align-center {
-            margin: 0px auto;
-        }
-        &_pa-1 {
-            position: absolute;
-            left: 100px;
-            top: 191px;
-            z-index: 1;
-        }
-        img {
-            margin-left: 10px;
-            width: 32px;
-            height: 32px;
-        }
-        &_pa-2 {
-            position: absolute;
-            left: 408px;
-            bottom: 945px;
-            z-index: 1;
-        }
-        &_pa-3 {
-            position: absolute;
-            left: -43px;
-            top: -278px;
-            right: auto;
-            bottom: auto;
-            z-index: 1;
-        }
-        &_pa-4 {
-            position: absolute;
-            left: 523px;
-            top: -382px;
-            right: auto;
-            bottom: auto;
-            z-index: 1;
-        }
-    }
-    &__img {
-        width: 32px;
-        height: 32px;
-        background-image: url(../img/lp-icons-play.svg);
-        background-position: 50% 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        translate: 4px;
-        &_pause {
-            width: 32px;
-            height: 32px;
-            background-image: url(../img/lp-icons-pause.svg);
-            background-position: 50% 50%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            translate: 0px;
-        }
-    }
-}
-
-.link {
-    position: relative;
-    display: block;
-    font-family: 'Rubik';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color: $black;
-    &_mt-50 {
-        margin-top: 50px;
-    }
-    &_mt-20 {
-        margin-top: 20px;
-    }
-    &_mt-10 {
-        margin-top: 10px;
-    }
-    &_mb-m17 {
-        margin-bottom: -16px;
-    }
-    span {
-        margin-right: 8px;
-    }
-    img {
-        width: 20px;
-        height: 20px;
-        margin-bottom: 18px;
-    }
-    &-email {
-        font-family: 'Playfair Display Regular';
-        color: $black;
-        font-weight: 400;
-        font-size: 24px;
-        a {
-            font-family: 'Playfair Display Regular';
-            color: $black;
-            font-weight: 400;
-            font-size: 24px;
-        }
-    }
-}
-
