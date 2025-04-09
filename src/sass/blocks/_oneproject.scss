@@ -1,7 +1,21 @@
+.modal {
+    display: none;
+    position: relative;
+    background-color: $black;
+    z-index: 500;
+
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+
+}
+
 .oneproject {
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 200px;
+    padding-top: 120px;
+    padding-bottom: 200px;
     
     &__heading {
         display: flex;
