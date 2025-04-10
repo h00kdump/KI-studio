@@ -28,7 +28,7 @@
         flex-shrink: 0;
 
         border-radius: 40px;
-        border: 24px solid $blue;
+        border: 24px solid var(--blue);
 
         &:hover &__Pen_of_Krishna {
             transform: scale(1.1) rotateZ(-4deg);
@@ -42,7 +42,7 @@
             line-height: normal;
             font-style: bold;
             font-size: 177px;
-            color: $white;
+            color: var(--white);
             text-align: center;
         }
 
@@ -68,12 +68,13 @@
         line-height: 74px;
         font-style: bold;
         font-size: 68px;
-        color: $white;
+        color: var(--white);
         text-align: center;
     }
 
     &__socials {
         display: inline-flex;
+        display: none;
         align-items: center;
         gap: 36px;
 

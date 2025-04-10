@@ -10,7 +10,7 @@
 }
 
 .blue-text {
-    color: $blue;
+    color: var(--blue);
 }
 
 .container {
@@ -46,10 +46,10 @@
 }
 
 a {
-    color: $white;
+    color: var(--white);
     text-decoration: none;
     &:hover {
-        color: $white;
+        color: var(--white);
         text-decoration: none;
     }
 
@@ -85,5 +85,5 @@ html {
 }
 
 body {
-    background-color: $black;
+    background-color: var(--black);
 }
