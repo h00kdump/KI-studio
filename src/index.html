@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://gitabook.ru/img/lp-img-og.png">
+    <link href="/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/img/webclip.webp" rel="apple-touch-icon">
     <title>KI studio</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <div class="header">
-        <a href="/index.html" aria-current="page" class="header__logo header__logo-selected">KI</a>
+        <div class="header__logowrapper">
+            <a href="/index.html" aria-current="page" class="header__logo header__logo-selected">KI</a>
+            <div class="header__changecolor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12 22V2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" />
+                </svg>
+            </div>
+        </div>
         <a data-lang="projects" href="/projects.html" aria-current="page" class="header__menu">projects</a>
-        <a href="/about.html" aria-current="page" class="header__myphoto"></a>
+        <div class="header__myphotowrapper">
+            <a href="/about.html" aria-current="page" class="header__myphoto"></a>
+        </div>
     </div>
     
         <section class="main">
@@ -31,7 +45,13 @@
         </section>
 
     <div class="footer">
-        <a href="mailto:h00kdump@yandex.ru?subject=Название%20нового%20проекта" target="_blank" class="footer__mail"></a>
+        <div class="footer__mailwrapper">
+            <a href="mailto:h00kdump@yandex.ru?subject=Название%20нового%20проекта" target="_blank" class="footer__mail">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7C0 4.79086 1.79086 3 4 3H20C22.2091 3 24 4.79086 24 7V17C24 19.2091 22.2091 21 20 21H4C1.79086 21 0 19.2091 0 17V7ZM4 5H20C20.1792 5 20.3528 5.02356 20.518 5.06774L12.7071 12.8787C12.3166 13.2692 11.6834 13.2692 11.2929 12.8787L3.48196 5.06774C3.64718 5.02356 3.82084 5 4 5ZM2.06774 6.48196C2.02356 6.64718 2 6.82084 2 7V17C2 18.1046 2.89543 19 4 19H20C21.1046 19 22 18.1046 22 17V7C22 6.82084 21.9764 6.64718 21.9323 6.48196L14.1213 14.2929C12.9497 15.4645 11.0503 15.4645 9.87868 14.2929L2.06774 6.48196Z" />
+                    </svg>
+            </a>
+        </div>
         <a data-lang="send" href="https://t.me/h00kdump" target="_blank" class="footer__btn"><div class="footer__btn__icon"></div><p>send a message</p></a>
         <div class="footer__language">ru</div>
     </div>

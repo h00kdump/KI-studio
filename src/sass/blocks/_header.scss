@@ -21,6 +21,23 @@
     align-items: center;
     margin: 25px 32px;
 
+    &__logowrapper {
+        display: flex;
+        width: 80px;
+        align-items: center;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+
+    &__changecolor svg {
+        fill: var(--white);
+        cursor: pointer;
+        &:hover {
+            fill: var(--blue);
+            cursor: pointer;
+            }
+    }
+
 
     &__logo {
         font-size: 36px;
@@ -47,6 +64,15 @@
             }
     }
     
+    &__myphotowrapper {
+        display: flex;
+        width: 80px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
     &__myphoto {
         cursor: pointer;
         width: 48px;
