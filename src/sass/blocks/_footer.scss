@@ -19,15 +19,23 @@
     align-items: center;
     margin: 25px 32px;
 
-    &__mail {
+    &__mailwrapper {
+        display: flex;
+        width: 60px;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    &__mail svg {
         width: 24px;
         height: 24px;
         flex-shrink: 0;
         display: inline-block;
+        fill: var(--white);
         cursor: pointer;
-        background: url(../icons/Icons-Mail-Dark.svg);
         &:hover {
-            background: url(../icons/Icons-Mail-Blue.svg);
+            fill: var(--blue);
             cursor: pointer;
             }
     }
