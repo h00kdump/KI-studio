@@ -10,7 +10,7 @@
 }
 
 .blue-text {
-    color: var(--blue);
+    color: var(--Accent);
 }
 
 .container {
@@ -46,10 +46,8 @@
 }
 
 a {
-    color: var(--white);
     text-decoration: none;
     &:hover {
-        color: var(--white);
         text-decoration: none;
     }
 
@@ -87,5 +85,5 @@ html {
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--BG);
 }

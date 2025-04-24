@@ -14,7 +14,7 @@
     line-height: 100%;
     font-style: bold;
     font-size: 24px;
-    color: var(--white);
+    color: var(--Text);
 
     display: flex;
     justify-content: space-between;
@@ -30,10 +30,10 @@
     }
 
     &__changecolor svg {
-        fill: var(--white);
+        fill: var(--Text);
         cursor: pointer;
         &:hover {
-            fill: var(--blue);
+            fill: var(--Accent);
             cursor: pointer;
             }
     }
@@ -42,12 +42,13 @@
     &__logo {
         font-size: 36px;
         text-transform: uppercase;
+        color: var(--Text);
         cursor: pointer;
         &-selected {
-            color: var(--blue);
+            color: var(--Accent);
         }
         &:hover {
-            color: var(--blue);
+            color: var(--Accent);
             cursor: pointer;
             }
     }
@@ -55,11 +56,12 @@
     &__menu {
         text-transform: lowercase;
         cursor: pointer;
+        color: var(--Text);
         &-selected {
-            color: var(--blue);
+            color: var(--Accent);
         }
         &:hover {
-            color: var(--blue);
+            color: var(--Accent);
             cursor: pointer;
             }
     }
@@ -79,13 +81,13 @@
         height: 48px;
         flex-shrink: 0;
         border-radius: 100px;
-        border: 3px solid var(--white);
+        border: 3px solid var(--Text);
         background: url(../img/myphoto.png) lightgray 50% / cover no-repeat;
         &-selected {
-            border: 3px solid var(--blue);
+            border: 3px solid var(--Accent);
         }
         &:hover {
-            border: 3px solid var(--blue);
+            border: 3px solid var(--Accent);
             cursor: pointer;
             }
     }
