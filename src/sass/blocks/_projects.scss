@@ -19,7 +19,7 @@
         cursor: pointer;
 
         &:hover &__heading {
-            color: var(--blue);
+            color: var(--Accent);
             cursor: pointer;
             }
         &:hover &__img {
@@ -32,7 +32,7 @@
             }
 
         &__heading {
-            color: var(--white);
+            color: var(--Text);
             font-family: 'Inter Bold';
             font-weight: 600;
             line-height: 74px;
@@ -41,7 +41,7 @@
             
         }
         &__subheading {
-            color: var(--gray);
+            color: var(--SubText);
             font-family: 'Inter';
             font-size: 28px;
             font-style: normal;
