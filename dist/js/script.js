@@ -1,3 +1,6 @@
+
+// Модальные окна с проектами
+
 const modal = document.querySelector('#modal-1');
 const modal2 = document.querySelector('#modal-2');
 
@@ -32,3 +35,5 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 };
+
+
