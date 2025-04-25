@@ -16,6 +16,8 @@ $gray: #7E818A; */
     --SubText: #7E818A;
     --CloseBtn: #FF7D6B;
 
+    transition: background-color 0.3s, color 0.3s;
+
 }
 
 :root[theme='dark'] {
@@ -27,5 +29,7 @@ $gray: #7E818A; */
     --TextInBtn: #FFFFFF;
     --SubText: #7E818A;
     --CloseBtn: #FF7D6B;
+
+    transition: background-color 0.3s, color 0.3s;
 
 }
