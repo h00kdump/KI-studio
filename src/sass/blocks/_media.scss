@@ -1,13 +1,225 @@
 
 @media (max-width: 1366px) {
-    .classname {
-        height: 800px;    
+
+    .container.container_width-1440 {
+        max-width: 1046px;
     }
+
+    .container.container_oneproject {
+        max-width: 1046px;
+    }
+
+    .header {
+        margin: 18px 25px;
+        font-size: 20px;
+        &__myphoto {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--Text);
+            &-selected {
+                border: 2px solid var(--Accent);
+            }
+            &:hover {
+                border: 2px solid var(--Accent);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer {
+        font-size: 16px;
+        margin: 18px 25px;
+        &__mailwrapper {
+            width: 60px;
+        }
+        &__languagewrapper {
+            width: 60px;
+        }
+        &__btn {
+            height: 50px;
+            padding: 8px 24px 8px 5px;
+            gap: 12px;
+    
+            &__icon svg {
+                width: 40px;
+                height: 40px;
+            }
+    
+        }
+    }
+
+    .main {
+        &__wrapper {
+            width: 458px;
+        }
+        &__hello {
+            font-size: 50px;
+            line-height: 58px;
+        }
+        &__KI {
+            width: 250px;
+            height: 250px;
+    
+            border-radius: 47px;
+            border: 19px solid var(--Accent);
+    
+            &:hover &__Pen_of_Krishna {
+                transform: scale(1.1) rotateZ(-4deg);
+                }
+    
+            p {
+                font-size: 138px;
+            }
+
+            &__Pen_of_Krishna {
+                position: absolute;
+                right: 71px;
+                top: -100px;
+    
+                width: 311px;
+                height: 395px;
+                
+            }
+        }
+    }
+
+    .projects {
+        gap: 32px;
+        margin-top: 100px;
+        margin-bottom: 160px;
+        &__one_project {
+            gap: 4px;
+            &__heading {
+                font-size: 50px;
+                line-height: 58px;               
+            }
+            &__subheading {
+                font-size: 20px;
+            }
+            &__img { 
+                position: absolute;
+                left: auto;
+                top: -86px;
+                right: 0%;
+                bottom: auto;
+    
+                width: 250px;
+                height: 250px;
+                border-radius: 60px;
+            }
+        }
+    }
+
+    .close {
+        top: 16px;
+        &__btn {
+            width: 50px;
+            height: 50px;
+    }
+    }
+
+    .oneproject {
+        padding-top: 100px;
+        padding-bottom: 160px;        
+        &__heading {
+            gap: 4px;
+        }
+        &__header {
+            font-size: 50px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+
+        &__basicinfo {
+            gap: 4px;
+    
+            &__wrapper {
+                margin-top: 32px;
+            }
+            &__left {
+                gap: 40px;
+            }
+            &__label {
+                font-size: 16px;
+    
+            }
+            &__text {
+                font-size: 16px;
+            }
+            &__link {
+                font-size: 16px;
+            }
+        }
+        &__paragraph {
+            margin-top: 40px;
+            max-width: 1100px;
+            font-size: 20px;
+            line-height: 140%;
+        }
+        &__screenshots {
+            margin-top: 40px;
+            gap: 24px;
+    
+            &__header {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .about {    
+        margin-top: 100px;
+        margin-bottom: 160px;
+        &__us {
+            font-size: 40px;
+        }
+    }
+
+
 }
 
-@media screen and (max-width: 991px) {
-    .classname {
-        height: 800px; 
+@media screen and (max-width: 1024px) {
+    .container.container_width-1440 {
+        max-width: 780px;
+    }
+    .container.container_oneproject {
+        max-width: 1046px;
+    }
+    .projects {
+        gap: 28px;
+        margin-top: 100px;
+        margin-bottom: 160px;
+        &__one_project {
+            gap: 2px;
+            &__heading {
+                font-size: 44px;
+                line-height: 50px;               
+            }
+            &__subheading {
+                font-size: 16px;
+            }
+            &__img { 
+                position: absolute;
+                left: auto;
+                top: -76px;
+                right: 0%;
+                bottom: auto;
+    
+                width: 220px;
+                height: 220px;
+                border-radius: 48px;
+            }
+        }
+    }
+
+
+
+    .about {    
+        margin-top: 100px;
+        margin-bottom: 160px;
+        &__us {
+            font-size: 32px;
+        }
     }
 }
 
