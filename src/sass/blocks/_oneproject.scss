@@ -65,6 +65,13 @@
             gap: 60px;
         }
 
+        &__right {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 60px;
+        }
+
         &__label {
             color: var(--SubText);
             font-family: 'Inter';
@@ -120,6 +127,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 60px;
+        border-radius: 100px;
 
         &__header {
             color: var(--Text);
@@ -142,6 +150,12 @@
         &__oneimg {
             display: inline-block;
             max-width: 100%;
+            &-first {
+                border-radius: 24px 24px 0px 0px;
+            }
+            &-last {
+                border-radius: 0px 0px 24px 24px;
+            }
         } 
     }
 
