@@ -10,6 +10,11 @@
         line-height: 120%;
         font-style: bold;
         font-size: 48px;
+        a {
+            &:hover {
+                color: var(--Accent-2);
+                }
+        }
     }
 }
 

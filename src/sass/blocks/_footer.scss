@@ -72,8 +72,9 @@
     &__languagewrapper {
         display: flex;
         width: 65px;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
+        gap: 12px;
         flex-shrink: 0;
     }
 
