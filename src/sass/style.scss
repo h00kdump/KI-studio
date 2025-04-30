@@ -92,5 +92,6 @@ html {
 }
 
 body {
+    overscroll-behavior-y: contain;
     background-color: var(--BG);
 }
