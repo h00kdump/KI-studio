@@ -39,6 +39,7 @@ function setupModal(modalId, openBtnId, closeBtnId) {
   }
   
   // Настройка всех модальных окон
+
   setupModal("#modal-1", "#openModal", "#close");
   setupModal("#modal-2", "#openModal2", "#close2");
   setupModal("#modal-3", "#openModal3", "#close3");
@@ -51,6 +52,8 @@ function setupModal(modalId, openBtnId, closeBtnId) {
   setupModal("#modal-10", "#openModal10", "#close10");
   setupModal("#modal-11", "#openModal11", "#close11");
   setupModal("#modal-12", "#openModal12", "#close12");
+  setupModal("#modal-13", "#openModal13", "#close13");
+  setupModal("#modal-14", "#openModal14", "#close14");
 
 
 /* // Модальные окна с проектами
