@@ -1,3 +1,107 @@
+@media (max-width: 1600px) {
+
+    .main {
+
+        &__KI {
+
+            &__studio {
+                font-size: 180px;
+        }
+            
+            &__services {
+            margin-top: 36px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            &__item {
+                font-size: 17px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 60px;
+            gap: 32px;
+                p {
+                font-size: 36px;
+                }
+        }
+
+            &__arrow {
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 50px;
+        }
+
+
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .main {
+
+        &__KI {
+
+            &__studio {
+                font-size: 170px;
+        }
+            
+            &__services {
+            margin-top: 28px;
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            &__item {
+                font-size: 15px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 52px;
+            gap: 28px;
+                p {
+                font-size: 32px;
+                }
+        }
+
+            &__arrow {
+            width: 190px;
+            height: 40px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 45px;
+        }
+
+
+    }
+}
+
+
+
 
 @media (max-width: 1366px) {
 
@@ -50,7 +154,66 @@
         }
     }
 
-    .main {
+        .main {
+
+            &__KI {
+
+                &__Pen_of_Krishna {
+                left: 140px;
+                top: -135px;
+
+                width: 304px;
+                height: 386px;
+
+                transform: rotateZ(24deg);
+            
+            }
+
+                &__studio {
+                    font-size: 145px;
+            }
+                
+                &__services {
+                margin-top: 28px;
+                display: flex;
+                align-items: center;
+                gap: 28px;
+
+                &__item {
+                    font-size: 15px;
+                }
+            }
+
+                &__projectslink {
+                margin-top: 50px;
+                gap: 28px;
+                    p {
+                    font-size: 30px;
+                    }
+            }
+
+                &__arrow {
+                width: 190px;
+                height: 40px;
+                flex-shrink: 0;
+                display: inline-block;
+                background: url(../icons/Icons-BigArrow-Blue-2.svg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+            }
+
+            }
+
+            &__hello {
+            line-height: 110%;
+            font-size: 44px;
+            }
+
+
+    }
+
+/*     .main {
         &__hello {
             font-size: 46px;
             line-height: 52px;
@@ -83,7 +246,7 @@
             }
         }
 
-    }
+    } */
 
     .projects {
         gap: 32px;
@@ -199,6 +362,66 @@
     .container.container_oneproject {
         max-width: 800px;
     }
+
+    .main {
+
+        &__KI {
+
+            &__Pen_of_Krishna {
+            left: 110px;
+            top: -140px;
+
+            width: 304px;
+            height: 386px;
+
+            transform: rotateZ(24deg);
+        
+        }
+
+            &__studio {
+                font-size: 130px;
+        }
+            
+            &__services {
+            margin-top: 28px;
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            &__item {
+                font-size: 13px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 44px;
+            gap: 26px;
+                p {
+                font-size: 26px;
+                }
+        }
+
+            &__arrow {
+            width: 175px;
+            height: 40px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 40px;
+        }
+
+
+    }
+
     .projects {
         gap: 28px;
         margin-top: 100px;
@@ -308,10 +531,69 @@
     }
 
     .main {
+
+        &__KI {
+
+            &__Pen_of_Krishna {
+            left: 110px;
+            top: -140px;
+
+            width: 304px;
+            height: 386px;
+
+            transform: rotateZ(24deg);
+        
+        }
+
+            &__studio {
+                font-size: 130px;
+        }
+            
+            &__services {
+            margin-top: 28px;
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            &__item {
+                font-size: 13px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 44px;
+            gap: 26px;
+                p {
+                font-size: 26px;
+                }
+        }
+
+            &__arrow {
+            width: 175px;
+            height: 40px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 40px;
+        }
+
+
+    }
+
+    /* .main {
         &__hello {
             padding: 0px 16px;
         }
-    }
+    } */
 
     .header {
         margin: 12px 16px;
@@ -394,16 +676,141 @@
         
 }
 
+@media (max-width: 640px) {
+
+
+.main {
+
+    &__KI {
+
+        &__Pen_of_Krishna {
+        left: 80px;
+        top: -95px;
+
+        width: 195px;
+        height: 248px;
+
+        transform: rotateZ(24deg);
+
+    }
+
+        &__studio {
+            font-size: 90px;
+    }
+        
+        &__services {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        &__item {
+            font-size: 12px;
+        }
+    }
+
+        &__projectslink {
+        margin-top: 32px;
+        gap: 20px;
+            p {
+            font-size: 20px;
+            }
+    }
+
+        &__arrow {
+        width: 150px;
+        height: 32px;
+        flex-shrink: 0;
+        display: inline-block;
+        background: url(../icons/Icons-BigArrow-Blue-2.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    }
+
+    &__hello {
+    line-height: 110%;
+    font-size: 32px;
+    }
+
+
+}
+
+
+}
+
 
 @media (max-width: 440px) {
     .container.container_width-1440 {
-        max-width: 313px;
+        /* max-width: 313px; */
+        max-width: 100%;
     }
     .container.container_oneproject {
         max-width: 800px;
     }
 
     .main {
+
+        &__KI {
+
+            &__Pen_of_Krishna {
+            left: 70px;
+            top: -75px;
+
+            width: 151px;
+            height: 192px;
+
+            transform: rotateZ(24deg);
+
+        }
+
+            &__studio {
+                font-size: 72px;
+        }
+            
+            &__services {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            &__item {
+                font-size: 12px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 48px;
+            gap: 15px;
+                p {
+                font-size: 20px;
+                }
+        }
+
+            &__arrow {
+            width: 97px;
+            height: 23px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 24px;
+        }
+
+
+    }
+
+    /* .main {
         &__wrapper {
             gap: 24px;
         }
@@ -438,7 +845,7 @@
                 
             }
         }
-    }
+    } */
 
     .projects {
         gap: 24px;
@@ -513,7 +920,7 @@
         margin-top: 80px;
         margin-bottom: 140px;
         &__us {
-            font-size: 24px;
+            font-size: 18px;
         }
     }
 
@@ -522,6 +929,68 @@
 
 
 @media (max-width: 360px) {
+
+    .main {
+        padding: 0px 16px 24px 16px;
+
+        &__KI {
+
+            &__Pen_of_Krishna {
+            left: 52px;
+            top: -62px;
+
+            width: 130px;
+            height: 165px;
+
+            transform: rotateZ(24deg);
+
+        }
+
+            &__studio {
+                font-size: 60px;
+        }
+            
+            &__services {
+            margin-top: 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+
+            &__item {
+                font-size: 12px;
+            }
+        }
+
+            &__projectslink {
+            margin-top: 42px;
+            gap: 15px;
+                p {
+                font-size: 16px;
+                }
+        }
+
+            &__arrow {
+            width: 80px;
+            height: 18px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        }
+
+        &__hello {
+        line-height: 110%;
+        font-size: 20px;
+        }
+
+
+    }
+
     .classname {
         height: 800px; 
     }

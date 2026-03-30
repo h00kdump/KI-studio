@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
 
+    &__Krishna {
+        position: relative;
+    }
+
     &__wrapper {
         position: relative;
         display: flex;
@@ -16,6 +20,10 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+
+        &__2 {
+            align-items: flex-start;
+        }
     }
 
     &__KI {
@@ -29,6 +37,74 @@
 
         border-radius: 60px;
         border: 24px solid var(--Accent);
+
+        &__studio {
+            position: relative;
+            z-index: 100;
+            font-family: 'Inter Bold';
+            font-weight: 600;
+            line-height: normal;
+            font-style: bold;
+            font-size: 200px;
+            color: var(--Text);
+            text-align: left;
+
+        }
+
+        &__services {
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            gap: 36px;
+
+            &__item {
+                display: inline-block;
+                font-family: 'Inter';
+                font-weight: 400;
+                line-height: normal;
+                font-style: normal;
+                font-size: 20px;
+                color: var(--Text);
+                text-align: left;
+                padding: 0px 0px;
+            }
+
+        }
+
+        &__projectslink {
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            gap: 42px;
+
+                &:hover p {
+                color: var(--Accent);
+                cursor: pointer;
+                }
+
+                p {
+                display: inline-block;
+                font-family: 'Inter';
+                font-weight: 400;
+                line-height: normal;
+                font-style: normal;
+                font-size: 42px;
+                color: var(--Text);
+                text-align: left;
+                padding: 0px 0px;
+                }
+        }
+
+        &__arrow {
+            width: 273px;
+            height: 67px;
+            flex-shrink: 0;
+            display: inline-block;
+            background: url(../icons/Icons-BigArrow-Blue-2.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
 
         &:hover &__Pen_of_Krishna {
             transform: scale(1.1) rotateZ(-4deg);
@@ -44,12 +120,13 @@
             font-size: 177px;
             color: var(--Text);
             text-align: center;
+            
         }
 
         &__Pen_of_Krishna {
             position: absolute;
-            right: 100px;
-            top: -150px;
+            left: 180px;
+            top: -186px;
 
             width: 398px;
             height: 506px;
@@ -57,21 +134,25 @@
             background-position: 50% 50%;
             background-size: cover;
             background-repeat: no-repeat;
+
+            z-index: -1;
+
+            transform: rotateZ(24deg);
             
         }
+
     }
    
     &__hello {
         display: inline-block;
-        font-family: 'Inter Bold';
-        font-weight: 600;
+        font-family: 'Inter';
+        font-weight: 400;
         line-height: 68px;
-        font-style: bold;
+        font-style: normal;
         font-size: 60px;
         color: var(--Text);
-        text-align: center;
-        max-width: 724px;
-        padding: 0px 32px;
+        text-align: left;
+        padding: 0px 0px;
     }
 
     &__socials {
