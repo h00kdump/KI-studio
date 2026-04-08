@@ -1,13 +1,16 @@
 
 .main {
-    position: absolute;
+
+    position: relative;
+    padding-top: 270px;
+    /* position: absolute;
     left: 0%;
     top: 0%;
     right: 0%;
     bottom: 0%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
     &__Krishna {
         position: relative;
@@ -72,6 +75,7 @@
         }
 
         &__projectslink {
+            position:relative;
             margin-top: 70px;
             display: flex;
             align-items: center;

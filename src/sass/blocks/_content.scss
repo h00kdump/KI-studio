@@ -1,0 +1,345 @@
+.content {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 140px;
+}
+
+.Principles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+    }
+    h2 {
+        align-self: stretch;
+
+        color: var(--Text);
+        font-family: 'Inter Bold';
+        font-size: 60px;
+        font-style: bold;
+        font-weight: 600;
+        line-height: 110%;
+    }
+    &__text {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 40px;
+        align-self: stretch;
+        flex-wrap: wrap;
+            p {
+                max-width: 440px;
+                flex: 1 0 0;
+
+                color: var(--Text);
+                font-family: 'Inter';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+    }
+    &__stages {
+        display: flex;
+        max-width: 1287px;
+        align-items: flex-start;
+        gap: 68px 45px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        &__item {
+            display: flex;
+            width: 220px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            align-self: stretch;
+            &__number {
+                align-self: stretch;
+
+                color: var(--Accent);
+                font-family: 'Inter Bold';
+                font-size: 24px;
+                font-style: bold;
+                font-weight: 600;
+                line-height: normal;
+            }
+            &__text {
+                align-self: stretch;
+
+                color: var(--Text);
+                font-family: 'Inter';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+}
+
+.Clients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+
+            h2 {
+            align-self: stretch;
+
+            color: var(--Text);
+            font-family: 'Inter Bold';
+            font-size: 60px;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 110%;
+            }
+            p {
+            max-width: 440px;
+            flex: 1 0 0;
+
+            color: var(--Text);
+            font-family: 'Inter';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            }
+    }
+    &__numbers {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 49px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        &__item {
+            display: flex;
+            max-width: 200px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 14px;
+            &__number {
+                color: var(--Accent);
+                font-family: 'Inter Bold';
+                font-size: 48px;
+                font-style: bold;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            &__text {
+                align-self: stretch;
+
+                color: var(--Text);
+                font-family: 'Inter';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    &__logostext {
+        color: var(--Text);
+        font-family: 'Inter';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 38.4px */
+        letter-spacing: 0.25px;
+        }
+
+}
+
+
+.ContactAndCopyrights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 300px;
+    align-self: stretch;
+    &__oneproject {
+        gap: 60px;
+    }
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+
+            h2 {
+            align-self: stretch;
+
+            color: var(--Text);
+            font-family: 'Inter Bold';
+            font-size: 60px;
+            font-style: bold;
+            font-weight: 600;
+            line-height: 110%;
+            }
+            p {
+            max-width: 440px;
+            flex: 1 0 0;
+
+            color: var(--Text);
+            font-family: 'Inter';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            }
+    }
+    &__me {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 97px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        &__methods {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+            
+                &__item {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+                align-self: stretch;
+                    p {
+                        color: var(--Text);
+                        font-family: 'Inter';
+                        font-size: 42px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    a {
+                        font-family: 'Inter';
+                        font-size: 42px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        cursor: pointer;
+                        &:hover {
+                        color: var(--Accent-2);
+                        }
+                    }
+                }
+        }
+        &__location {
+            display: flex;
+            width: 750px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            p {
+                align-self: stretch;
+
+                color: var(--Text);
+                font-family: 'Inter';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            &__city {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                align-content: flex-start;
+                row-gap: 14px;
+                align-self: stretch;
+                flex-wrap: wrap;
+                h3 {
+                    color: var(--Text);
+                    font-family: 'Inter';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                p {
+                    color: var(--Text);
+                    font-family: 'Inter';
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+   
+}
+
+.Copyrights {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 42px;
+    p {
+        color: var(--Text);
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    &__social {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        &__icon {
+            z-index: 1001;
+        }
+        &__icon svg {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            display: inline-block;
+            fill: var(--Text);
+            cursor: pointer;
+            &:hover {
+                fill: var(--Accent);
+                cursor: pointer;
+                }
+        }
+    }
+    &__oneproject {
+        padding-bottom: 200px;
+    } 
+    
+
+}
+

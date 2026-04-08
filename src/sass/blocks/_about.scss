@@ -1,20 +1,18 @@
 .about {
     position: relative;
 
-    margin-top: 140px;
-    margin-bottom: 200px;
+    margin-top: 213px;
+    /* margin-bottom: 200px; */
     &__us {
+        align-self: stretch;
+
         color: var(--Text);
         font-family: 'Inter';
         font-weight: 400;
         font-style: normal;
-        line-height: 120%;
-        font-size: 48px;
-        a {
-            &:hover {
-                color: var(--Accent-2);
-                }
-        }
+        line-height: normal;
+        font-size: 32px;
+        letter-spacing: 0.25px;
     }
 }
 
