@@ -1,3 +1,147 @@
+.projects-grid {
+    margin-top: 118px;
+    display: inline-grid;
+    width: 1520px;
+    row-gap: 48px;
+    column-gap: 20px;
+    grid-template-rows: repeat(4,fit-content(100%));
+    grid-template-columns: repeat(2,minmax(0,1fr));
+
+    &__projectcard {
+        display: flex;
+        min-width: 280px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        justify-self: stretch;
+        cursor: pointer;
+
+            &__01 {
+            grid-row: 1 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__02 {
+            grid-row: 1 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__03 {
+            grid-row: 2 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__04 {
+            grid-row: 2 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__05 {
+            grid-row: 3 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__06 {
+            grid-row: 3 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__07 {
+            grid-row: 4 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__08 {
+            grid-row: 4 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__09 {
+            grid-row: 5 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__10 {
+            grid-row: 5 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__11 {
+            grid-row: 6 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__12 {
+            grid-row: 6 / span 1;
+            grid-column: 2 / span 1;
+            }
+            &__13 {
+            grid-row: 7 / span 1;
+            grid-column: 1 / span 1;
+            }
+            &__14 {
+            grid-row: 7 / span 1;
+            grid-column: 2 / span 1;
+            }
+            
+
+        &:hover &__text__heading {
+        color: var(--Accent);
+        cursor: pointer;
+        }
+
+        &:hover &__img {
+        /* border: 10px solid var(--Accent); */
+
+        outline-color: var(--Accent);
+
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        }
+
+
+        &__img {
+            width: 100%;
+            align-self: stretch;
+            aspect-ratio: 101/79;
+
+            border-radius: 20px;
+
+
+            outline: 10px solid transparent;
+            outline-offset: -10px; // Чтобы outline был внутри, как border
+            cursor: pointer;
+            transition: outline-color 0.3s ease-in-out;
+
+            
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+            align-self: stretch;
+
+            &__heading {
+                color: var(--Text);
+                font-family: 'Inter Bold';
+                font-size: 44px;
+                font-style: bold;
+                font-weight: 600;
+                line-height: 110%;
+
+            }
+
+            &__subheading {
+                color: var(--SubText);
+                font-family: 'Inter';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+}
+
+.newprojects {
+    padding-top: 108px;
+}
+
+/* old version */
+
+
 .projects {
     position: relative;
 
