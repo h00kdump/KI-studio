@@ -1,3 +1,4 @@
+
 @media (max-width: 1600px) {
 
     .main {
@@ -99,13 +100,13 @@
 
 @media (max-width: 1366px) {
 
-    .container.container_width-1440 {
-        max-width: 1060px;
+    .container.container_width-1520 {
+        max-width: 1096px;
         padding: 0 25px;
     }
 
     .container.container_oneproject {
-        max-width: 1060px;
+        max-width: 1096px;
         padding: 0 25px;
     }
 
@@ -149,6 +150,7 @@
     }
 
         .main {
+            padding-top: 180px;
 
             &__KI {
 
@@ -202,40 +204,174 @@
 
     }
 
-/*     .main {
-        &__hello {
-            font-size: 46px;
-            line-height: 52px;
-            max-width: 550px;
-            padding: 0px 25px;
-        }
-        &__KI {
-            width: 250px;
-            height: 250px;
-    
-            border-radius: 47px;
-            border: 19px solid var(--Accent);
-    
-            &:hover &__Pen_of_Krishna {
-                transform: scale(1.1) rotateZ(-4deg);
+    .projects-grid {
+        margin-top: 70px;
+        row-gap: 42px;
+        
+            &__projectcard {
+                gap: 16px;
+                &__text {
+                    
+                    &__heading {
+                        font-size: 30px;
+                    }
+
+                    &__subheading {
+                        font-size: 18px;
+                    }
                 }
-    
-            p {
-                font-size: 138px;
+            }
+        
+    }
+
+    .content {
+        margin-top: 98px;
+        gap: 98px;
+    }
+
+    .Principles {
+        gap: 48px;
+        &__header {
+            gap: 28px;
+        }
+        h2 {
+            font-size: 44px;
+        }
+        &__text {
+                p {
+                    font-size: 15px;
+                }
+        }
+        &__stages {
+            gap: 32px 32px;
+            &__item {
+                width: 180px;
+                gap: 12px;
+                align-self: stretch;
+                &__number {
+                    font-size: 24px;
+                }
+                &__text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .Clients {
+        gap: 48px;
+        &__header {
+            gap: 28px;
+        }
+        h2 {
+            font-size: 44px;
+        }
+        &__text {
+                p {
+                    font-size: 15px;
+                }
+        }
+        &__numbers {
+            gap: 48px;
+        &__item {
+            max-width: 200px;
+            gap: 14px;
+            &__number {
+                font-size: 48px;
+            }
+            &__text {
+                font-size: 15px;
+            }
+        }
+        }
+        &__logostext {
+            font-size: 28px;
+        }
+    }
+
+    .Contacts {
+        gap: 48px;
+        &__header {
+            gap: 28px;
+        }
+        h2 {
+            font-size: 44px;
+        }
+        &__text {
+                p {
+                    font-size: 15px;
+                }
+        }
+        &__me {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 50px;
+            align-self: stretch;
+            row-gap: 48px;
+            &__methods {
+                align-self: stretch;
+                width: 100%;
+                gap: 2px;
+                
+                    &__item {
+                    gap: 13px;
+                        p {
+                            font-size: 32px;
+                        }
+                        a {
+                            font-size: 32px;
+                            }
+                        }
             }
 
-            &__Pen_of_Krishna {
-                position: absolute;
-                right: 70px;
-                top: -120px;
-    
-                width: 311px;
-                height: 395px;
-                
+            &__location {
+                align-self: stretch;
+                width: 100%;
+                gap: 12px;
+                p {
+                    font-size: 14px;
+                }
+                &__city {
+                    row-gap: 14px;
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
             }
         }
 
-    } */
+    }
+
+    .ContactAndCopyrights {
+    gap: 48px;
+    &__oneproject {
+        gap: 48px;
+    }
+    }
+
+    .Copyrights {
+    gap: 48px;
+    padding-bottom: 180px;
+    p {
+        font-size: 14px;
+    }
+    &__social {
+        gap: 18px;
+    }
+    &__oneproject {
+        padding-bottom: 180px;
+    } 
+    
+
+    }
+
+    .newprojects {
+    padding-top: 98px;
+}
+    
 
     .projects {
         gap: 32px;
@@ -266,6 +402,7 @@
 
     .close {
         top: 16px;
+        height: 50px;
         &__btn {
             width: 50px;
             height: 50px;
@@ -273,13 +410,13 @@
     }
 
     .oneproject {
-        padding-top: 100px;
-        padding-bottom: 160px;        
+        padding-top: 98px;
+        padding-bottom: 24px;        
         &__heading {
             gap: 4px;
         }
         &__header {
-            font-size: 50px;
+            font-size: 44px;
         }
         &__subheader {
             font-size: 20px;
@@ -310,18 +447,20 @@
         }
         &__paragraph {
             margin-top: 40px;
-            max-width: 1100px;
+            max-width: 100%;
             font-size: 20px;
-            line-height: 140%;
         }
-        &__screenshots {
-            margin-top: 40px;
-            gap: 24px;
-    
+
+        &__about {
             &__header {
+                margin-top: 40px;
+
                 font-size: 20px;
             }
+        
+        }
 
+        &__screenshots {
             &__oneimg {
                 &-first {
                     border-radius: 20px 20px 0px 0px;
@@ -334,10 +473,9 @@
     }
 
     .about {    
-        margin-top: 100px;
-        margin-bottom: 160px;
+        margin-top: 168px;
         &__us {
-            font-size: 40px;
+            font-size: 24px;
         }
     }
 
@@ -345,11 +483,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container.container_width-1440 {
-        max-width: 780px;
+    .container.container_width-1520 {
+        max-width: 850px;
+        padding: 0 25px;
     }
     .container.container_oneproject {
-        max-width: 800px;
+        max-width: 850px;
+        padding: 0 25px;
     }
 
     .main {
@@ -407,6 +547,182 @@
 
     }
 
+    .projects-grid {
+        margin-top: 60px;
+        row-gap: 38px;
+        
+            &__projectcard {
+                gap: 14px;
+                &__img {
+                    border-radius: 18px;
+                    outline: 8px solid transparent;
+                    outline-offset: -8px;
+                }
+                &__text {
+                    gap: 3px;
+                    
+                    &__heading {
+                        font-size: 26px;
+                    }
+
+                    &__subheading {
+                        font-size: 17px;
+                    }
+                }
+            }
+        
+    }
+
+    .content {
+        margin-top: 86px;
+        gap: 86px;
+    }
+
+    .Principles {
+        gap: 46px;
+        &__header {
+            gap: 26px;
+        }
+            h2 {
+                font-size: 40px;
+            }
+        &__text {
+            gap: 36px;
+            p {
+                max-width: 100%;
+                font-size: 15px;
+            }
+        }
+        &__stages {
+            gap: 32px 32px;
+            &__item {
+                width: 180px;
+                gap: 12px;
+                align-self: stretch;
+                &__number {
+                    font-size: 24px;
+                }
+                &__text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .Clients {
+        gap: 46px;
+        &__header {
+            gap: 26px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        &__text {
+                p {
+                    font-size: 15px;
+                }
+        }
+        &__numbers {
+            gap: 48px;
+        &__item {
+            max-width: 200px;
+            gap: 14px;
+            &__number {
+                font-size: 48px;
+            }
+            &__text {
+                font-size: 15px;
+            }
+        }
+        }
+        &__logostext {
+            font-size: 28px;
+        }
+    }
+
+    .Contacts {
+        gap: 46px;
+        &__header {
+            gap: 26px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        &__text {
+                p {
+                    font-size: 15px;
+                }
+        }
+        &__me {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 50px;
+            align-self: stretch;
+            row-gap: 46px;
+            &__methods {
+                align-self: stretch;
+                width: 100%;
+                gap: 2px;
+                
+                    &__item {
+                    gap: 13px;
+                        p {
+                            font-size: 30px;
+                        }
+                        a {
+                            font-size: 30px;
+                            }
+                        }
+            }
+
+            &__location {
+                align-self: stretch;
+                width: 100%;
+                gap: 8px;
+                p {
+                    font-size: 14px;
+                }
+                &__city {
+                    row-gap: 14px;
+                    h3 {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .ContactAndCopyrights {
+    gap: 46px;
+    &__oneproject {
+        gap: 46px;
+    }
+    }
+
+    .Copyrights {
+    gap: 20px;
+    padding-bottom: 180px;
+    p {
+        font-size: 14px;
+    }
+    &__social {
+        gap: 16px;
+    }
+    &__oneproject {
+        padding-bottom: 180px;
+    } 
+    
+
+    }
+
+    .newprojects {
+    padding-top: 90px;
+    }
+
     .projects {
         gap: 28px;
         margin-top: 100px;
@@ -435,16 +751,16 @@
     }
 
     .oneproject {
-        padding-top: 90px;
-        padding-bottom: 140px;        
+        padding-top: 86px;
+        padding-bottom: 24px;        
         &__heading {
             gap: 4px;
         }
         &__header {
-            font-size: 44px;
+            font-size: 40px;
         }
         &__subheader {
-            font-size: 16px;
+            font-size: 20px;
         }
 
         &__basicinfo {
@@ -457,62 +773,60 @@
                 align-items: flex-start;
                 gap: 16px;
                 align-self: stretch;
+                
             }
             &__left {
-                gap: 32px;
+                gap: 24px;
             }
             &__right {
-                gap: 32px;
+                gap: 24px;
             }
             &__label {
-                font-size: 14px;
+                font-size: 15px;
     
             }
             &__text {
-                font-size: 14px;
+                font-size: 15px;
             }
             &__link {
-                font-size: 14px;
+                font-size: 15px;
             }
         }
         &__paragraph {
             margin-top: 32px;
-            font-size: 18px;
-            line-height: 140%;
+            font-size: 20px;
         }
-        &__screenshots {
-            margin-top: 32px;
-            gap: 20px;
-    
+        &__about {
             &__header {
-                font-size: 18px;
+                margin-top: 32px;
+                font-size: 20px;
             }
+        
         }
     }
 
 
     .about {    
-        margin-top: 100px;
-        margin-bottom: 160px;
+        margin-top: 150px;
         &__us {
-            font-size: 32px;
+            font-size: 22px;
         }
     }
 
     .close {
-        top: 8px;
+        top: 16px;
     }
 }
 
 
 @media (max-width: 768px) {
-    .container.container_width-1440 {
-        max-width: 600px;
+    .container.container_width-1520 {
+        max-width: 644px;
         padding: 0 16px;
     }
     .container.container_oneproject {
-        max-width: 800px;
-        padding: 0 16px;
+        max-width: 100%;
+        padding: 0 0;
     }
 
     .main {
@@ -720,12 +1034,14 @@
 
 
 @media (max-width: 440px) {
-    .container.container_width-1440 {
-        /* max-width: 313px; */
+
+    .container.container_width-1520 {
         max-width: 100%;
+        padding: 0 20px;
     }
     .container.container_oneproject {
-        max-width: 800px;
+        max-width: 100%;
+        padding: 0 0;
     }
 
     .main {
@@ -782,42 +1098,30 @@
 
     }
 
-    /* .main {
-        &__wrapper {
-            gap: 24px;
-        }
-        &__hello {
-            font-size: 36px;
-            line-height: 42px;
-            max-width: 352px;
+    .projects-grid {
+        margin-top: 48px;
 
-        }
-        &__KI {
-            width: 250px;
-            height: 250px;
-    
-            border-radius: 47px;
-            border: 19px solid var(--Accent);
-    
-            &:hover &__Pen_of_Krishna {
-                transform: scale(1.1) rotateZ(-4deg);
+        display: inline-grid;
+        row-gap: 24px;
+        column-gap: 12px;
+        grid-template-rows: repeat(13,fit-content(100%));
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        
+            &__projectcard {
+                gap: 10px;
+                &__text {
+                    gap: 2px;
+                    &__heading {
+                        font-size: 24px;
+                    }
+
+                    &__subheading {
+                        font-size: 15px;
+                    }
                 }
-    
-            p {
-                font-size: 138px;
             }
-
-            &__Pen_of_Krishna {
-                position: absolute;
-                right: 0px;
-                top: -120px;
-    
-                width: 311px;
-                height: 395px;
-                
-            }
-        }
-    } */
+        
+    }
 
     .projects {
         gap: 24px;
