@@ -822,7 +822,7 @@
 @media (max-width: 768px) {
     .container.container_width-1520 {
         max-width: 644px;
-        padding: 0 16px;
+        padding: 0 20px;
     }
     .container.container_oneproject {
         max-width: 100%;
@@ -1064,11 +1064,11 @@
     }
 
     .header {
-        margin: 12px 16px;
+        margin: 12px 20px;
     }
 
     .footer {
-        margin: 12px 16px;
+        margin: 12px 20px;
     }
 
     .projects {    
@@ -1161,6 +1161,24 @@
 }
 
 @media (max-width: 640px) {
+
+    
+    .container.container_width-1520 {
+        max-width: 644px;
+        padding: 0 16px;
+    }
+    .container.container_oneproject {
+        max-width: 100%;
+        padding: 0 0;
+    }
+
+    .header {
+        margin: 12px 16px;
+    }
+
+    .footer {
+        margin: 12px 16px;
+    }
 
 
     .main {
@@ -1309,7 +1327,7 @@
 
     .container.container_width-1520 {
         max-width: 100%;
-        padding: 0 20px;
+        padding: 0 16px;
     }
     .container.container_oneproject {
         max-width: 100%;
