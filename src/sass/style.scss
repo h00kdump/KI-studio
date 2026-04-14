@@ -1,6 +1,7 @@
-@import 'libs/bootstrap-reboot';
-@import 'libs/fonts';
-@import 'base/variables';
+@use "sass:meta";
+@use 'libs/bootstrap-reboot';
+@use 'libs/fonts';
+@use 'base/variables';
 
 
 * {
@@ -81,16 +82,16 @@ p {
 
 
 
-@import 'blocks/buttons';
-@import 'blocks/header';
-@import 'blocks/footer';
-@import 'blocks/main';
-@import 'blocks/projects';
-@import 'blocks/oneproject';
-@import 'blocks/about';
-@import 'blocks/content';
+@include meta.load-css('blocks/buttons');
+@include meta.load-css('blocks/header');
+@include meta.load-css('blocks/footer');
+@include meta.load-css('blocks/main');
+@include meta.load-css('blocks/projects');
+@include meta.load-css('blocks/oneproject');
+@include meta.load-css('blocks/about');
+@include meta.load-css('blocks/content');
 
-@import 'blocks/media';
+@include meta.load-css('blocks/media');
 
 * {
     transition: all 0.3s ease-in-out;
