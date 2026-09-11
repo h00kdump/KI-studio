@@ -63,6 +63,7 @@
             setupModal("#modal-17", "#openModal17", "#close17");
             setupModal("#modal-18", "#openModal18", "#close18");
             setupModal("#modal-19", "#openModal19", "#close19");
+            setupModal("#modal-20", "#openModal20", "#close20");
         });
     } else {
         // DOM уже загружен
@@ -86,6 +87,7 @@
         setupModal("#modal-17", "#openModal17", "#close17");
         setupModal("#modal-18", "#openModal18", "#close18");
         setupModal("#modal-19", "#openModal19", "#close19");
+        setupModal("#modal-20", "#openModal20", "#close20");
     }
 })();
 
